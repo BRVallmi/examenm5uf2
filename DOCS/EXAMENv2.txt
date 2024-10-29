@@ -1,0 +1,6 @@
+git clone https://github.com/BRVallmi/examenm5uf2.git
+mv LICENSE examenm5uf2/
+mv EXAMENv2.txt examenm5uf2/DOCS
+git add .
+git commit -m  "Versio-2"
+git push origin main

@@ -1,0 +1,44 @@
+git add .
+git commit -m "Fix Versio-3"
+git push origin main
+git add .
+git status
+git commit -m "Carpeta HTML"
+git push origin main
+
+git add .
+git commit -m "Ruta img/favicon"
+git push origin main
+git pull origin main
+
+git add .
+git commit -m "Fix css"
+git push origin main
+git pull origin main
+
+git add .
+git commit -m "Correcion js i cart"
+git push origin main
+
+
+git checkout -b p1
+git add .
+git commit - "Title Change"
+git push origin p1
+
+git checkout -b p2
+git add .
+git commit -m "Cambio nombre empresa" 
+git push origin p2
+
+git checkout main
+git merge p1
+git fetch
+git merge origin/p2
+
+git branch -D p1
+git branch -D p2
+
+git add . 
+git commit "Versio-4"
+git push origin main

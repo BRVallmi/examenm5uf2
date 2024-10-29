@@ -1,0 +1,8 @@
+mkdir examenm5uf2
+cd examenm5uf2
+git init
+mkdir DOCS
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/BRVallmi/examenm5uf2.git
+git push -u origin main

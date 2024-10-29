@@ -1,0 +1,17 @@
+git add .
+git commit -m "Footer name"
+git push origin main
+
+git add .
+git commit -m "Email"
+git push origin main
+
+git pull origin main
+git add .
+git commit -m "Traducir"
+git push origin main
+
+git pull origin main
+git add .
+git commit -m "Versio-5"
+git push origin main

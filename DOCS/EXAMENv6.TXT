@@ -1,0 +1,15 @@
+git reset --hard HEAD
+git pull
+git checkout mywork
+git add .
+git commit -m "author"
+git push origin mywork
+
+git pull
+git add .
+git commit -m "Nom img"
+git push origin mywork
+git checkout main
+git add .
+git commit -m "Versio-6"
+git push origin main
